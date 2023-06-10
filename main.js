@@ -4,9 +4,9 @@ var i = 0,
     isParagraph = false; 
 var textArray = [ " My name is Bett Ayub 😋|", 
                     "Simply in love with programming 😎|", 
-                    "Mostly developig bots, scrapers, web apps 🐱‍| ", 
+                    "Mostly developing web apps 👌| ", 
                     "Look latests 4 successful projects down 😎|",
-                    "Love reading and good music 👌|" ];
+                   ];
 var speedForward = 100,
     speedWait = 1000,
     speedBetweenLines = 1000,
@@ -35,7 +35,6 @@ function typeWriter(id, ar) {
         setTimeout(function(){ typeWriter(id, ar); }, speedForward);
       }
     } else if (i == aString.length) {
-      
       isBackspacing = true;
       setTimeout(function(){ typeWriter(id, ar); }, speedWait);
       
