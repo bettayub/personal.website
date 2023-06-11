@@ -1,4 +1,66 @@
-.output{
-    text-align: center;
+
+ *, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--ff-poppins);
+}
+body{
+  display: block;
+  background-image: url(images/falco-negenman--f2sJr-PJDA-unsplash.jpg);
+  animation: move 120s ease-in-out infinite;
+
 
 }
+.output{
+    text-align: center;
+    color: azure;
+    font-size: x-large;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+.sidebar-info {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  color:white;
+  font-size: 20px;
+    font: weight 20px;;
+
+}
+.info-content .name {
+ color: azure;
+  font-size:20px;
+  font: weight 20px;;
+  letter-spacing: -0.25px;
+  margin-bottom: 5px;
+}
+.info-content .title {
+ color: azure;
+  font-size:20px;
+  font: weight 20px;;
+  letter-spacing: -0.25px;
+  margin-bottom: 5px;
+}
+
+  
+  @keyframes move{
+    0%{
+      background-position:center ;     
+    }
+    50%{
+      background-position: right;
+    }
+    100%{
+      background-position: left;
+
+    } }
+  
+  
+  
+  
