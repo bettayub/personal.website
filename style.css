@@ -110,7 +110,7 @@ padding-left: 30px;
   .about-text {
     color:white;
     line-height: 1.6;
-  font-size: 20px;}
+  font-size: 25px;}
     
 
     .about-text p {
@@ -122,6 +122,8 @@ padding-left: 30px;
 .service-title {
   margin-bottom: 20px;
   color: aqua;
+  margin-top: 10px;
+  padding-left: 30px;
 }
 .service-list {
   display: grid;
@@ -163,6 +165,73 @@ header {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+article.active {
+  display: block;}
+  header {
+    display: block;
+}
+.article-title {
+  margin-bottom: 30px;
+}
+.article-title {
+  position: relative;
+  padding-bottom: 7px;
+}
+.h2 {
+  font-size: var(--fs-1);
+}
+.mapbox {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  border: 1px solid var(--jet);
+  overflow: hidden;
+}
+
+
+.contact-form {
+  margin-bottom: 10px;
+}
+form {
+  display: block;
+
+}
+.input-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+element.style {
+  position: relative !important;
+  height: 0px !important;
+  width: 0px !important;
+  float: left !important;
+}
+textarea.form-input {
+  min-height: 100px;
+  height: 120px;
+  max-height: 200px;
+  resize: vertical;
+  margin-bottom: 25px;
+}
+.form-input {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  padding: 13px 20px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+}
+input, textarea {
+  display: block;
+  width: 100%;
+  font: inherit;
+  
+
 }
 
   @keyframes move{
