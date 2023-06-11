@@ -53,10 +53,84 @@ body{
 }
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
   overflow: hidden;
 }
-  
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: hsla(349, 58%, 32%, 0.315);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--jet);
+  border-radius: 12px 12px 0 0;
+  box-shadow: var(--shadow-2);
+  z-index: 5;
+
+}
+.navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+ 
+}
+ul {
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+  gap: 20px;
+  list-style: none;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style: none;
+  cursor: pointer;
+
+}
+article.active {
+  display: block;
+}
+header {
+  display: block;
+  color: whitesmoke;
+  font-weight: 100px;
+  font-size: 20px;
+  text-decoration:underline;
+margin-bottom: 10px;
+padding-left: 30px;
+}
+.article-title {
+  position: relative;
+  padding-bottom: 7px;}
+
+  .about-text {
+    color:white;
+    line-height: 1.6;}
+
+    .about-text p {
+      margin-bottom: 15px;
+  }
+  .service {
+    margin-bottom: 35px;
+}
+.service-title {
+  margin-bottom: 20px;
+  color: aqua;
+}
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  color: aliceblue;
+}
+
+
+
+
   @keyframes move{
     0%{
       background-position:center ;     
