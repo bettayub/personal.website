@@ -33,6 +33,10 @@ body{
     font: weight 20px;;
 
 }
+.avatar-box {
+  background: var(--bg-gradient-onyx);
+  border-radius: 20px;
+}
 .info-content .name {
  color: azure;
   font-size:20px;
@@ -47,7 +51,11 @@ body{
   letter-spacing: -0.25px;
   margin-bottom: 5px;
 }
-
+.sidebar {
+  margin-bottom: 15px;
+  max-height: 112px;
+  overflow: hidden;
+}
   
   @keyframes move{
     0%{
