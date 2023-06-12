@@ -181,38 +181,32 @@ article.active {
 .h2 {
   font-size: var(--fs-1);
 }
+
+.contact {
+  display: flex;
+}
+.form-input1 {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  padding: 13px 20px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  width: 100%;
+
+}
+.input-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 25px;
+  margin-bottom: 25px;
+}
 .mapbox {
   position: relative;
   width: 90%;
   margin-bottom: -200px;
   margin-left: -70px;
   margin-top: 40px;
-}
-#cont-form{
-color: white;
-}
-.contact{
-  display: flex;
-  position: absolute;
-}
-.input-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 25px;
-    margin-bottom: 25px;
-    width: 100%;
-}
-element.style {
-  position: relative !important;
-  height: 0px !important;
-  width: 0px !important;
-  float: left !important;
-}
-textarea.form-input {
- height: 100px;
- width: 90%;
-}
-.form-input {
   color: var(--white-2);
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
@@ -220,14 +214,26 @@ textarea.form-input {
   border: 1px solid var(--jet);
   border-radius: 14px;
 }
-input, textarea {
 
-  
 
-  
-
+.contact-form {
+  color: white;
+  width: 100%;
 }
-
+.contact{
+  width: 40%;
+}
+.form-input{
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  padding: 13px 20px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+}
+.form{
+  margin-top: 30px;
+}
   @keyframes move{
     0%{
       background-position:center ;     
