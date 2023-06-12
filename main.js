@@ -1,20 +1,20 @@
-var i = 0,
+let i = 0,
     a = 0,
     isBackspacing = false,
     isParagraph = false; 
-var textArray = [ " My name is Bett Ayub 😋|", 
+let textArray = [ "Hey there my name is Bett Ayub 😋|", 
                     "Simply in love with programming 😎|", 
                     "Mostly developing web apps 👌| ", 
                     "Look latests 4 successful projects down 😎|",
                    ];
-var speedForward = 100,
+let speedForward = 100,
     speedWait = 1000,
     speedBetweenLines = 1000,
     speedBackspace = 25;
 typeWriter("output", textArray);
 
 function typeWriter(id, ar) {
-  var element = $("#" + id),
+  let element = $("#" + id),
       aString = ar[a],
       eHeader = element.children("h1"),
       eParagraph = element.children("p");
