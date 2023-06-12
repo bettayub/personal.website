@@ -58,20 +58,20 @@ body{
 .navbar {
   position: absolute;
   margin-left: 300px;
-  background-color: blueviolet;
+  background-color: rgb(211, 226, 43);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
+  width: 40%;
 
 }
 .navbar-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  padding: 0 10px;
+  padding:0 20px;
+  font-size: 20px;
 }
 ul {
   display: inline-block;
@@ -207,12 +207,6 @@ article.active {
   margin-bottom: -200px;
   margin-left: -70px;
   margin-top: 40px;
-  color: var(--white-2);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-400);
-  padding: 13px 20px;
-  border: 1px solid var(--jet);
-  border-radius: 14px;
 }
 
 
@@ -233,6 +227,14 @@ article.active {
 }
 .form{
   margin-top: 30px;
+}
+.message{
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  padding: 13px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 10%;
 }
   @keyframes move{
     0%{
